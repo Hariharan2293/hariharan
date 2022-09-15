@@ -3,7 +3,7 @@ lst=[]
 sum1=0
 sum2=0
 for i in range(0,l):
-    ele=int(input())
+    ele=int(input("Enter the elements:"))
     lst.append(ele)
 for i in range(0,l):
     if(lst[i]%2==0):
